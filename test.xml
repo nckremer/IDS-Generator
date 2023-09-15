@@ -1,0 +1,1063 @@
+<ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:None="http://www.w3.org/1999/xhtml" >
+    <info>
+        <title>Default</title>
+        <description>test test test</description>
+        <date>2023-10-19</date>
+    </info>
+    <ids:specifications>
+        <ids:specification name="Building" ifcVersion="IFC4" identifier="14CgUoHorF2Oz2BjypsIU6" description="Information for IfcBuilding element" minOccurs="1" maxOccurs="1">
+            <ids:applicability>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCBUILDING</simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <requirements>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCBUILDING</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_AllgemeineGebaeudedaten</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>NutzungsverhaltenLueftung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Volumen </simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Flaeche</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>HüllflächenEingabeverfahren</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Bauschwere</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Luftdichtheit</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Wärmebruecken</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Kälteerzeuger</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ÜbergabesystemKaelte</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>EffizienzstandardVerteilung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Wärmeerzeuger</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ÜbergabesystemWaerme</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Raumtemperaturregelung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Nutzungsart </simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Bezugsgröße</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>QuantifizierungBezugsgröße</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ArtTrinkwasserbereitstellung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>AngabenKWK </simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>KWKEnergiequelle</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ArtSolaranlage</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Kollektortyp</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Orientierung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_BuidlingEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Neigung</simpleValue>
+                    </ids:name>
+                </ids:property>
+            </requirements>
+        </ids:specification>
+        <ids:specification name="Roof" ifcVersion="IFC4" identifier="1ZjZDMYLDCn941F3wMgCZZ" description="Information for IfcRoof element" minOccurs="1" maxOccurs="1">
+            <ids:applicability>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCROOF</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IFCTEST">
+                    <ids:propertySet>
+                        <simpleValue>Pset_RoofCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>Test</simpleValue>
+                    </ids:value>
+                </ids:property>
+                <ids:property datatype="IFCBOOLEAN">
+                    <ids:propertySet>
+                        <simpleValue>Pset_RoofCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>True</simpleValue>
+                    </ids:value>
+                </ids:property>
+            </ids:applicability>
+            <requirements>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCROOF</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_RoofCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Ausrichtung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcThermalTransmittanceMeasure" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_RoofCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ThermalTransmittance</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_RoofEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>FlaecheDach</simpleValue>
+                    </ids:name>
+                </ids:property>
+            </requirements>
+        </ids:specification>
+        <ids:specification name="Slab" ifcVersion="IFC4" identifier="2AVZ3VkcH0APhpUW2cCs7S" description="Information for IfcSlab element" minOccurs="1" maxOccurs="1">
+            <ids:applicability>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCSLAB</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IFCTEST">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SlabCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>Test</simpleValue>
+                    </ids:value>
+                </ids:property>
+                <ids:property datatype="IFCBOOLEAN">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SlabCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>True</simpleValue>
+                    </ids:value>
+                </ids:property>
+            </ids:applicability>
+            <requirements>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCSLAB</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SlabCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Ausrichtung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcThermalTransmittanceMeasure" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SlabCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ThermalTransmittance</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcBoolean" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SlabCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>GegenErdreich</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SlabEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>FlaecheBodenplatte</simpleValue>
+                    </ids:name>
+                </ids:property>
+            </requirements>
+        </ids:specification>
+        <ids:specification name="Space" ifcVersion="IFC4" identifier="3_Lw87sOrEWuwynkBjAinA" description="Information for IfcSpace element" minOccurs="1" maxOccurs="1">
+            <ids:applicability>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCSPACE</simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <requirements>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCSPACE</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Nutzungsprofil</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>FlaecheRaumBoden</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>HoeheRaum</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>GekühlterBereich</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcBoolean" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Nachtlüftung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>DurchschnittlichFenstersturz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>DurchschnittlichFensterhöhe</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Beleuchtungsart</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Lampenart</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcBoolean" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Präsenzerfassung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Beleuchtungssteuerung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcBoolean" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Konstantlichtregelung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ArtLüftung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_SpaceEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Lüftungssteuerung</simpleValue>
+                    </ids:name>
+                </ids:property>
+            </requirements>
+        </ids:specification>
+        <ids:specification name="TGAElement" ifcVersion="IFC4" identifier="2F$x0rRw59LPgCzQEMrJH$" description="Information for IfcBuildingElementProxy element" minOccurs="1" maxOccurs="1">
+            <ids:applicability>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCBUILDINGELEMENTPROXY</simpleValue>
+                    </ids:name>
+                </ids:entity>
+            </ids:applicability>
+            <requirements>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCBUILDINGELEMENTPROXY</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_Lueftungsanlage</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Wärmerückgewinnung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_Lueftungsanlage</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Effizienzstandard</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_PhotovoltaikSystem</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>OrientierungAnlage</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_PhotovoltaikSystem</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>NeigungAnlage </simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_Stromspeicher</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>SpeicherkapazitätBatterie</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_Windenergieanlagen</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>LeistungWEA</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_Windenergieanlagen</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Nabenhöhe</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_Windenergieanlagen</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>EinschaltWindgeschwindigkeit</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_Windenergieanlagen</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>AusschaltWindgeschwindigkeit</simpleValue>
+                    </ids:name>
+                </ids:property>
+            </requirements>
+        </ids:specification>
+        <ids:specification name="Wall" ifcVersion="IFC4" identifier="2PEY23E8fEcBM6ML4WVWgl" description="Information for IfcWall element" minOccurs="1" maxOccurs="1">
+            <ids:applicability>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IFCTEST">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>Test</simpleValue>
+                    </ids:value>
+                </ids:property>
+                <ids:property datatype="IFCBOOLEAN">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>True</simpleValue>
+                    </ids:value>
+                </ids:property>
+            </ids:applicability>
+            <requirements>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCWALL</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Verschattung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>VerschattungÜberhang</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>VerschattungSeitenblende</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>AusführungSonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Sonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>SteuerungSonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Blendschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Verschattung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>VerschattungÜberhang</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>VerschattungSeitenblende</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>AusführungSonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Sonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>SteuerungSonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Blendschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcThermalTransmittanceMeasure" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ThermalTransmittance</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcThermalTransmittanceMeasure" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ThermalTransmittance</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Ausrichtung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>FlaecheAussenwand</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcBoolean" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>GegenErdreich</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Ausrichtung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>FlaecheAussenwand</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcBoolean" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>GegenErdreich</simpleValue>
+                    </ids:name>
+                </ids:property>
+            </requirements>
+        </ids:specification>
+        <ids:specification name="Wall" ifcVersion="IFC4" identifier="10GPxMFHD7ih8IjmPpPgjS" description="Information for IfcWall element" minOccurs="1" maxOccurs="1">
+            <ids:applicability>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCWALLSTANDARDCASE</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IFCTEST">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>Test</simpleValue>
+                    </ids:value>
+                </ids:property>
+                <ids:property datatype="IFCBOOLEAN">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>True</simpleValue>
+                    </ids:value>
+                </ids:property>
+            </ids:applicability>
+            <requirements>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCWALLSTANDARDCASE</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Verschattung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>VerschattungÜberhang</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>VerschattungSeitenblende</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>AusführungSonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Sonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>SteuerungSonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Blendschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Verschattung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>VerschattungÜberhang</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>VerschattungSeitenblende</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>AusführungSonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Sonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>SteuerungSonnenschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_VerschattungSonnenschutz</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Blendschutz</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcThermalTransmittanceMeasure" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ThermalTransmittance</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcThermalTransmittanceMeasure" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>ThermalTransmittance</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Ausrichtung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>FlaecheAussenwand</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcBoolean" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>GegenErdreich</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Ausrichtung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>FlaecheAussenwand</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcBoolean" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WallEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>GegenErdreich</simpleValue>
+                    </ids:name>
+                </ids:property>
+            </requirements>
+        </ids:specification>
+        <ids:specification name="Window" ifcVersion="IFC4" identifier="0$iSOkZ_L1PwsKZx5AS0Fd" description="Information for IfcWindow element" minOccurs="1" maxOccurs="1">
+            <ids:applicability>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCWINDOW</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IFCTEST">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WindowCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>Test</simpleValue>
+                    </ids:value>
+                </ids:property>
+                <ids:property datatype="IFCBOOLEAN">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WindowCommon</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>IsExternal</simpleValue>
+                    </ids:name>
+                    <ids:value>
+                        <simpleValue>True</simpleValue>
+                    </ids:value>
+                </ids:property>
+            </ids:applicability>
+            <requirements>
+                <ids:entity>
+                    <ids:name>
+                        <simpleValue>IFCWINDOW</simpleValue>
+                    </ids:name>
+                </ids:entity>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_UwerteGebaeudedaten</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Rahmenverbundwert</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WindowEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Ausrichtung</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WindowEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>FlaecheFenster</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcLabel" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WindowEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>Verglasungsart</simpleValue>
+                    </ids:name>
+                </ids:property>
+                <ids:property datatype="IfcReal" minOccurs="1" maxOccurs="1">
+                    <ids:propertySet>
+                        <simpleValue>Pset_WindowEnercalc</simpleValue>
+                    </ids:propertySet>
+                    <ids:name>
+                        <simpleValue>UWertRahmen</simpleValue>
+                    </ids:name>
+                </ids:property>
+            </requirements>
+        </ids:specification>
+    </ids:specifications>
+</ids>
